@@ -1,0 +1,4 @@
+(executable
+ (name cat)
+ (libraries unix)
+ (preprocess (pps ppx_jane)))
